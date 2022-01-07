@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" conetnt="width=device-width, initial-scale=1.0">
+	<title> A Touch Of Serenity LLC</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<script src="https://kit.fontawesome.com/4fb1810b2d.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/touch.png"></a>
+			<div class="nav-links" id="navLinks">
+			<i class="fa fa-times"aria-hidden="true" onclick="hideMenu()" ></i>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="porfolio.html">Portfolio</a></li>
+					<li><a href="about.html">About Me</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+		</nav>
+		<h1> About Me </h1>
+	</section>
+
+<!----About Me Content-->
+
+<section class="About-Me">
+
+	<div class="row">
+
+		<div class=" about-col">
+			<img src="images/profilepic.jpg">
+		</div>
+
+		<div class="about-col">
+		<h1>Name</h1>
+		<p> Hi my name is Deborah Jackson. I was born and raised Native Floridain. 
+		I studied at Washington Dc academy. I am a master cosmetologist in all hair 
+		care needs. Business owner of salons in Virginia, Atlanta, New Jersey and 
+		currently owner and operator of "A Touch of Serenity". I have always had a 
+		passion for the beauty industry and creating seren atmosphere for custumores.
+		I have always dreamed of having buisness in NYC and YAhweh has granted that dream.</p>
+		<a href="" class="hero-btn red-btn">Explore Now</a>
+		</div>
+
+	</div>
+
+</section>
+
+
+
+
+
+<!---footer-->
+<section class="footer">
+	<h4>About Us</h4>
+	<p> Here we take our customers needs to heart and we always give our all to give you the best hairstyle</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-instagram"></i>
+	</div>
+	<p> Made by <i class="fa fa-star"></i> Kiara Wright</p>
+</section>
+
+
+
+
+
+
+<!-------JavaScript for Toggle Menu ------>
+	<script>
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
+
+
+
+</body>
+</html>
